@@ -8191,7 +8191,7 @@
 	(footprint "adhoc:BugBackbone"
 		(layer "B.Cu")
 		(uuid "587138fd-285c-4898-b1f6-95917cf2e08a")
-		(at 200 61.2 180)
+		(at 200 65.7 180)
 		(property "Reference" "REF**"
 			(at 0 -29.45 0)
 			(unlocked yes)
