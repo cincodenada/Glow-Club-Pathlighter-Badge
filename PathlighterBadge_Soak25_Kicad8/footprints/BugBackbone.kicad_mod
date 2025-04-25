@@ -122,7 +122,7 @@
 		(uuid "e9d078c6-5fa6-4139-b2ba-718bf986c6c7")
 	)
 	(pad "" smd rect
-		(at 2.8 43.65)
+		(at 2.8 43.15)
 		(size 4 10)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "a2cd9362-bc17-47f7-9343-c519076f5407")
