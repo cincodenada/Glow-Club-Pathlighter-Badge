@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,42 +9,43 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(grid_origin 105.25 85.75)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -54,7 +55,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -62,16 +62,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -84,12 +88,12 @@
 	(footprint "adhoc:MechanicalJoint"
 		(layer "F.Cu")
 		(uuid "2a77ee45-5873-42b9-8164-d0ad74dd9dd0")
-		(at 108.05 101.05)
+		(at 108.05 109.05)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "cfcb5961-4bb8-4e59-90b1-329fa2c22256")
+			(uuid "a2b5766e-2566-41d2-93e2-2cc700345eed")
 			(effects
 				(font
 					(size 1 1)
@@ -101,20 +105,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "dc4b08df-767d-40d8-9920-ffa0f8acb8cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "adhoc:MechanicalJoint"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d81fc095-99fa-45e2-b1aa-ddafd607af6d")
+			(uuid "65cd4b63-e88e-45cd-a8b8-d3984bb14c63")
 			(effects
 				(font
 					(size 1 1)
@@ -127,7 +118,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8bde9ad-2432-4df0-861a-28c723313086")
+			(uuid "9509edb9-f298-4d1f-ab4c-64b80f1c2716")
 			(effects
 				(font
 					(size 1 1)
@@ -140,7 +131,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5389d4db-77de-4634-b558-4413994d11ff")
+			(uuid "51d79d9c-8b97-4a90-8de5-fb18b0623317")
 			(effects
 				(font
 					(size 1 1)
@@ -162,95 +153,21 @@
 			)
 		)
 		(pad "" smd rect
-			(at 0 0)
+			(at 0 -8)
 			(size 4 10)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "b4303a01-8e06-4d44-9706-e07f9fccf333")
 		)
-	)
-	(footprint "adhoc:Slot_1.6mm"
-		(layer "F.Cu")
-		(uuid "311d998f-bd52-454f-bc23-393ac71b9ab0")
-		(at 108.25 54.85 135)
-		(property "Reference" ""
-			(at 0 0 135)
-			(layer "F.SilkS")
-			(uuid "3bb786ca-f2b4-4720-abb4-16b437af2d07")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 135)
-			(layer "F.Fab")
-			(uuid "fd263e75-a00d-48b7-be5c-e7fbd95a7a44")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "adhoc:Slot_1.6mm"
-			(at 0 0 135)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7855527f-5032-422b-8bf2-18c93578fa10")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 135)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "726c70f1-ccd4-470d-9e62-aae8c779197a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 135)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e950e67-4824-46ea-b223-d92648e84dc4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0 135)
-			(size 1.6 1.6)
-			(drill oval 1.6 10)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
-			(uuid "bf9cb497-9aeb-42de-b177-3e8411636bb6")
-		)
+		(embedded_fonts no)
 	)
 	(footprint "adhoc:Slot_1.6mm"
 		(layer "F.Cu")
 		(uuid "33669342-1998-4819-9a7e-ba9d5cb13627")
-		(at 105.25 60.75)
+		(at 105.25 128)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "a0319a0e-a7e7-4a22-9ff0-b90db71cce79")
+			(uuid "cd6cf106-47a1-4471-8f3c-99adc755277b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,19 +178,7 @@
 		(property "Value" ""
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "a9ea5258-5d35-4d47-95a1-d8af66721d30")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "adhoc:Slot_1.6mm"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6fc90f0-4884-49ee-a7a5-82ca061b70ce")
+			(uuid "635f34bd-7cd6-4ba1-9c32-03c7052c1b85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +190,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5a4c48b-ea3f-42c7-944a-fe3000b4026f")
+			(uuid "f02157a1-c9af-4a00-93dd-4d35458a9786")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +202,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f668e55e-19ae-4076-85a4-1baa9e3be523")
+			(uuid "5a8aee25-39f5-4b27-8352-21d9deec8c9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,24 +214,20 @@
 			(at 0 0)
 			(size 1.6 1.6)
 			(drill oval 1.6 10)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "6e6e7035-ef2d-4848-b092-ebcd3f0cf5c6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "adhoc:MechanicalJoint"
 		(layer "F.Cu")
 		(uuid "ff9e2137-1af0-4f74-96ff-b0d87edac2da")
-		(at 108.05 75.95)
+		(at 108.05 71.95)
 		(property "Reference" "REF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7db32d80-e118-427b-bae2-6ea316a877a6")
+			(uuid "7a853059-b4e8-4d85-b79a-6a53dd847a2d")
 			(effects
 				(font
 					(size 1 1)
@@ -338,20 +239,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8f68fcac-7e70-47bc-91e8-d1d317a5c340")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "adhoc:MechanicalJoint"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c5166b9-0920-40f1-b069-c4576def1078")
+			(uuid "f4c6dc45-b10b-4881-bc8c-df631f520f85")
 			(effects
 				(font
 					(size 1 1)
@@ -364,7 +252,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72c8900b-c1ba-405c-8881-bf366286d8da")
+			(uuid "10ed316c-3881-4530-b1ac-99d7b0b84b4c")
 			(effects
 				(font
 					(size 1 1)
@@ -377,7 +265,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05bf4917-89e0-4027-9246-2a82722ce109")
+			(uuid "1e8d0f51-3a90-47f7-9df0-f205dd69ba92")
 			(effects
 				(font
 					(size 1 1)
@@ -401,9 +289,10 @@
 		(pad "" smd rect
 			(at 0 0)
 			(size 4 10)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "ff53bb4a-8ed1-4f6d-9830-fd00254df608")
 		)
+		(embedded_fonts no)
 	)
 	(gr_poly
 		(pts
@@ -506,27 +395,28 @@
 			(width 0.201993)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "61530439-e5e3-47fa-bcd3-9457341a06c1")
 	)
 	(gr_rect
-		(start 104.45 64.85)
-		(end 106.05 87.35)
+		(start 104.45 87.35)
+		(end 106.05 124.1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "cadfbb25-2862-4958-a28a-191b64f3a92f")
 	)
 	(via
-		(at 109.35 61.45)
+		(at 108.5 62.5)
 		(size 4.5)
 		(drill 4)
 		(layers "F.Cu" "B.Cu")
 		(net 0)
 		(uuid "c91223e1-2e76-48c3-ad80-5710adddd411")
 	)
+	(embedded_fonts no)
 )
