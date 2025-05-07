@@ -68,7 +68,7 @@
 	)
 	(fp_rect
 		(start -0.8 29.9)
-		(end 0.8 74)
+		(end 0.8 70)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "8e3dd61f-9754-4ee9-8033-a26ee9c538e3")
 	)
 	(fp_line
-		(start -1 74)
-		(end 1 74)
+		(start -1 70)
+		(end 1 70)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -99,7 +99,7 @@
 	)
 	(fp_rect
 		(start -0.8 29.9)
-		(end 0.8 74)
+		(end 0.8 70)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -107,6 +107,12 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "10e610ce-b600-49b3-b8a8-4cb86a27d338")
+	)
+	(pad "" smd rect
+		(at -2.8 40.15 180)
+		(size 4 10)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "a2cd9362-bc17-47f7-9343-c519076f5407")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
@@ -120,12 +126,6 @@
 		(size 4 10)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "e9d078c6-5fa6-4139-b2ba-718bf986c6c7")
-	)
-	(pad "" smd rect
-		(at 2.8 43.15)
-		(size 4 10)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "a2cd9362-bc17-47f7-9343-c519076f5407")
 	)
 	(embedded_fonts no)
 )
