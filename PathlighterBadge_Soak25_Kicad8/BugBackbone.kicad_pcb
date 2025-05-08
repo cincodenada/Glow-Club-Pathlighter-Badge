@@ -18197,58 +18197,8 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "31639a1c-cf00-4743-a161-61a5730307a5")
-	)
-	(gr_line
-		(start 104.45 87.35)
-		(end 106.05 87.35)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0fe8d6b0-a2a4-451e-94df-60cee7055e72")
-	)
-	(gr_line
-		(start 106.05 87.35)
-		(end 106.05 124.1)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "45f529eb-8672-4bd2-9665-6cda7f09b8a7")
-	)
-	(gr_line
-		(start 104.45 127.45)
-		(end 104.45 124.1)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5602cbd0-09f7-46ac-9ac1-4286089d633b")
-	)
-	(gr_line
-		(start 104.45 87.35)
-		(end 104.45 124.05)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6718bf3a-6886-4207-8a56-bfbd125ae47d")
-	)
-	(gr_line
-		(start 106.05 124.1)
-		(end 106.05 125.45)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e56676c3-cd15-4a39-9234-650c14261263")
 	)
 	(dimension
 		(type orthogonal)
